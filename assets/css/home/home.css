@@ -163,16 +163,68 @@ main #developers #options .option h3 a:hover {
         margin-bottom: 4vh;
     }
 
-    main #menu #options {
-        flex-direction: column;
-        align-items: center;
-        gap: 2em;
+    main #menu #options .option{
+        width: 320px;
+        height: 330px;
     }
 
-    main #developers #options {
-        flex-direction: column;
-        align-items: center;
-        gap: 2em;
+    main #developers #options .option{
+        width: 320px;
+    }
+
+    main #developers #options .option h3{
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 839px){
+    main #menu #options, main #developers #options{
+        gap: 4em;
+    }
+
+    main #menu #options .option{
+        width: 280px;
+    }
+
+    main #menu #options .option .icons img{
+        width: 100px;
+    }
+
+    main #developers #options .option{
+        width: 280px;
+        height: 400px;
+    }
+
+    main #developers #options .option .avatar img {
+        width: 200px;
+    }
+
+    main #developers #options .option h3{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 642px){
+    main #menu #options .option{
+        width: 260px;
+        height: 300px;
+    }
+
+    main #menu #options .option .icons img{
+        width: 80px;
+    }
+
+    main #menu #options .option h3 {
+        font-size: 1.2em;
+    }
+
+    main #developers #options .option{
+        width: 260px;
+        height: 370px;
+    }
+
+    main #developers #options .option .avatar img {
+        width: 170px;
     }
 }
 
@@ -187,31 +239,118 @@ main #developers #options .option h3 a:hover {
     }
 }
 
-@media screen and (max-width: 555px) {
-    main #about #image img {
-        width: 350px;
+@media screen and (max-width: 593px) {
+    main #menu #options, main #developers #options{
+        gap: 3em;
     }
 
-    main #menu #options .option {
-        width: 300px;
-        height: 350px;
+    main #menu #options .option{
+        width: 220px;
+        height: 280px;
     }
 
-    main #menu #options .option .icons img {
-        width: 100px;
-    }
-
-    main #developers #options .option {
-        width: 300px;
+    main #developers #options .option{
+        width: 220px;
         height: 350px;
     }
 
     main #developers #options .option .avatar img {
-        width: 180px;
+        width: 150px;
     }
 
-    main #developers #options .option h3 {
+    main #developers #options .option h3{
+        font-size: .8em;
+        padding: .9em;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    main #about #image img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 504px) {
+    main #menu #options, main #developers #options{
+        gap: 2em;
+    }
+
+    main #menu #options .option{
+        width: 200px;
+        height: 240px;
+    }
+
+    main #menu #options .option .icons img{
+        width: 70px;
+    }
+
+    main #menu #options .option h3 {
+        font-size: 1.1em;
+    }
+
+    main #developers #options .option{
+        width: 200px;
+        height: 320px;
+    }
+
+    main #developers #options .option h3{
+        font-size: .75em;
+    }
+}
+
+@media screen and (max-width: 448px) {
+    main #menu #options .option{
+        width: 165px;
+        height: 200px;
+    }
+
+    main #menu #options .option .icons img{
+        width: 60px;
+    }
+
+    main #menu #options .option h3 {
         font-size: 1em;
+    }
+
+    main #developers #options .option{
+        width: 165px;
+        height: 260px;
+    }
+
+    main #developers #options .option .avatar img {
+        width: 120px;
+    }
+
+    main #developers #options .option h3{
+        font-size: .65em;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    main #menu #options .option{
+        width: 155px;
+        height: 190px;
+    }
+
+    main #menu #options .option .icons img{
+        width: 55px;
+    }
+
+    main #menu #options .option h3 {
+        font-size: .9em;
+    }
+
+    main #developers #options .option{
+        width: 155px;
+        height: 240px;
+    }
+
+    main #developers #options .option .avatar img {
+        width: 110px;
+    }
+
+    main #developers #options .option h3{
+        font-size: .6em;
     }
 }
 
