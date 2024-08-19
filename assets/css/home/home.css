@@ -163,34 +163,35 @@ main #developers #options .option h3 a:hover {
         margin-bottom: 4vh;
     }
 
-    main #menu #options .option{
+    main #menu #options .option {
         width: 320px;
         height: 330px;
     }
 
-    main #developers #options .option{
+    main #developers #options .option {
         width: 320px;
     }
 
-    main #developers #options .option h3{
+    main #developers #options .option h3 {
         font-size: 1.1em;
     }
 }
 
-@media screen and (max-width: 839px){
-    main #menu #options, main #developers #options{
+@media screen and (max-width: 839px) {
+    main #menu #options,
+    main #developers #options {
         gap: 4em;
     }
 
-    main #menu #options .option{
+    main #menu #options .option {
         width: 280px;
     }
 
-    main #menu #options .option .icons img{
+    main #menu #options .option .icons img {
         width: 100px;
     }
 
-    main #developers #options .option{
+    main #developers #options .option {
         width: 280px;
         height: 400px;
     }
@@ -199,18 +200,18 @@ main #developers #options .option h3 a:hover {
         width: 200px;
     }
 
-    main #developers #options .option h3{
+    main #developers #options .option h3 {
         font-size: 1em;
     }
 }
 
-@media screen and (max-width: 642px){
-    main #menu #options .option{
+@media screen and (max-width: 642px) {
+    main #menu #options .option {
         width: 260px;
         height: 300px;
     }
 
-    main #menu #options .option .icons img{
+    main #menu #options .option .icons img {
         width: 80px;
     }
 
@@ -218,7 +219,7 @@ main #developers #options .option h3 a:hover {
         font-size: 1.2em;
     }
 
-    main #developers #options .option{
+    main #developers #options .option {
         width: 260px;
         height: 370px;
     }
@@ -240,16 +241,17 @@ main #developers #options .option h3 a:hover {
 }
 
 @media screen and (max-width: 593px) {
-    main #menu #options, main #developers #options{
+    main #menu #options,
+    main #developers #options {
         gap: 3em;
     }
 
-    main #menu #options .option{
+    main #menu #options .option {
         width: 220px;
         height: 280px;
     }
 
-    main #developers #options .option{
+    main #developers #options .option {
         width: 220px;
         height: 350px;
     }
@@ -258,9 +260,9 @@ main #developers #options .option h3 a:hover {
         width: 150px;
     }
 
-    main #developers #options .option h3{
-        font-size: .8em;
-        padding: .9em;
+    main #developers #options .option h3 {
+        font-size: 0.8em;
+        padding: 0.9em;
     }
 }
 
@@ -271,16 +273,17 @@ main #developers #options .option h3 a:hover {
 }
 
 @media screen and (max-width: 504px) {
-    main #menu #options, main #developers #options{
+    main #menu #options,
+    main #developers #options {
         gap: 2em;
     }
 
-    main #menu #options .option{
+    main #menu #options .option {
         width: 200px;
         height: 240px;
     }
 
-    main #menu #options .option .icons img{
+    main #menu #options .option .icons img {
         width: 70px;
     }
 
@@ -288,23 +291,23 @@ main #developers #options .option h3 a:hover {
         font-size: 1.1em;
     }
 
-    main #developers #options .option{
+    main #developers #options .option {
         width: 200px;
         height: 320px;
     }
 
-    main #developers #options .option h3{
-        font-size: .75em;
+    main #developers #options .option h3 {
+        font-size: 0.75em;
     }
 }
 
 @media screen and (max-width: 448px) {
-    main #menu #options .option{
+    main #menu #options .option {
         width: 165px;
         height: 200px;
     }
 
-    main #menu #options .option .icons img{
+    main #menu #options .option .icons img {
         width: 60px;
     }
 
@@ -312,7 +315,7 @@ main #developers #options .option h3 a:hover {
         font-size: 1em;
     }
 
-    main #developers #options .option{
+    main #developers #options .option {
         width: 165px;
         height: 260px;
     }
@@ -321,26 +324,26 @@ main #developers #options .option h3 a:hover {
         width: 120px;
     }
 
-    main #developers #options .option h3{
-        font-size: .65em;
+    main #developers #options .option h3 {
+        font-size: 0.65em;
     }
 }
 
 @media screen and (max-width: 390px) {
-    main #menu #options .option{
+    main #menu #options .option {
         width: 155px;
         height: 190px;
     }
 
-    main #menu #options .option .icons img{
+    main #menu #options .option .icons img {
         width: 55px;
     }
 
     main #menu #options .option h3 {
-        font-size: .9em;
+        font-size: 0.9em;
     }
 
-    main #developers #options .option{
+    main #developers #options .option {
         width: 155px;
         height: 240px;
     }
@@ -349,8 +352,8 @@ main #developers #options .option h3 a:hover {
         width: 110px;
     }
 
-    main #developers #options .option h3{
-        font-size: .6em;
+    main #developers #options .option h3 {
+        font-size: 0.6em;
     }
 }
 
