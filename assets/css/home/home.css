@@ -11,12 +11,12 @@ main #about #content {
     width: 50%;
 }
 
-main #about #content #title,
+main #about #content .title,
 main #about #content #text {
     font-weight: 300;
 }
 
-main #about #content #title {
+main #about #content .title {
     margin-bottom: 2vh;
 }
 
@@ -34,7 +34,7 @@ main #menu {
     background-color: var(--goldenrod-yellow);
 }
 
-main #menu #title {
+main #menu .title {
     font-weight: 300;
     padding: 5vh 2vw 3vh 2vw;
     text-align: center;
@@ -82,7 +82,7 @@ main #developers {
     padding-bottom: 5vh;
 }
 
-main #developers #title {
+main #developers .title {
     font-weight: 300;
     padding: 5vh 2vw 3vh 2vw;
     color: var(--white-color);
@@ -249,11 +249,13 @@ main #developers #options .option h3 a:hover {
     main #menu #options .option {
         width: 220px;
         height: 280px;
+        border-radius: 15px;
     }
 
     main #developers #options .option {
         width: 220px;
         height: 260px;
+        border-radius: 15px;
     }
 
     main #developers #options .option .avatar img {
