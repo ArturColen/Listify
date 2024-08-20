@@ -253,7 +253,7 @@ main #developers #options .option h3 a:hover {
 
     main #developers #options .option {
         width: 220px;
-        height: 350px;
+        height: 260px;
     }
 
     main #developers #options .option .avatar img {
@@ -293,7 +293,10 @@ main #developers #options .option h3 a:hover {
 
     main #developers #options .option {
         width: 200px;
-        height: 320px;
+    }
+
+    main #developers #options .option .avatar {
+        margin-bottom: 3vh;
     }
 
     main #developers #options .option h3 {
@@ -317,7 +320,11 @@ main #developers #options .option h3 a:hover {
 
     main #developers #options .option {
         width: 165px;
-        height: 260px;
+        height: 220px;
+    }
+
+    main #developers #options .option .avatar {
+        margin-bottom: 2vh;
     }
 
     main #developers #options .option .avatar img {
@@ -345,7 +352,7 @@ main #developers #options .option h3 a:hover {
 
     main #developers #options .option {
         width: 155px;
-        height: 240px;
+        height: 210px;
     }
 
     main #developers #options .option .avatar img {
